@@ -8,6 +8,19 @@ export class Address{
   @Column()
   secondaryAddress:string=""
 
+  @Column()
   primaryEmail:string=""
+
+  @Column()
+  secondaryEmail:string=""
+
+  @Column()
+  postalCode:string=""
+
+  @Column()
+  district:string=""
+
+  @Column()
+  borough:string=""
 
 }
